@@ -9,7 +9,7 @@ const TabIcon = ({ highlight, icon, title, focused }: any) => {
         return (
         <ImageBackground
             source={highlight}
-            className='flex flex-row w-full flex-1 min-w-[112px] min-h-16 justify-center items-center rounded-full overflow-hidden'
+            className='flex flex-row w-full flex-1 min-w-[112px] min-h-20 justify-center items-center rounded-full overflow-hidden pt-2'
         >
             <Image source={icon}
                 tintColor="#151312"
@@ -20,7 +20,7 @@ const TabIcon = ({ highlight, icon, title, focused }: any) => {
         )
     } else {
         return (
-            <View className="size-full justify-center items-center mt-4 rounded-full">
+            <View className="size-full justify-center items-center mt-2 rounded-full">
                 <Image
                     source={icon}
                     tintColor="#A8B5DB"
